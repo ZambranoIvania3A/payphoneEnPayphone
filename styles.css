@@ -1,0 +1,177 @@
+/* styles.css mejorado para tienda de tecnología */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #1f2937;
+}
+
+header {
+    /* Degradado vinotinto de dos colores */
+    background: linear-gradient(135deg, #4a0415 0%, #834353 100%); 
+    color: #ffffff;
+    padding: 3rem 1rem; /* Más espacio arriba y abajo como en la imagen */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombreado del cuadro */
+}
+
+header h1 {
+    margin: 0;
+    /* Fuente elegante y espaciada */
+    font-family: 'Poppins', 'Segoe UI', sans-serif; 
+    font-size: 3rem; 
+    letter-spacing: 6px; /* Espacio entre letras para el estilo de marca */
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 0.8rem;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.card p {
+    margin: 0.3rem 0;
+    color: #374151;
+}
+
+.card button {
+    background: #900659;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.card button:hover {
+    background: #96056d;
+}
+
+.cart-section {
+    background: white;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.cart-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #111827;
+}
+
+.cart-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.remove-btn {
+    background: transparent;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#totals p {
+    font-size: 1rem;
+    margin: 0.4rem 0;
+}
+
+.cart-buttons {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.pay-btn {
+    background: #885375;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    background: #2563eb;
+}
+
+.clear-btn {
+    background: #885375;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    background: #dc2626;
+}
+
+footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.card img {
+    max-height: 160px;
+    object-fit: contain;
+    margin: 0 auto 0.8rem;
+    display: block;
+}
