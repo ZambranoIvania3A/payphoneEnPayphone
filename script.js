@@ -83,7 +83,7 @@ document.getElementById("payButton").addEventListener("click", () => {
     }
 
     const storeId = "qvPrPn77Uuk1iSk4P6Hw";
-    const token = "9Qqj6as__GgqfO9P0_w3GYjDFM8OivtjbxBVLqjxMAEVvDT29E48n2Y14_KcuXUEJXGaTFtqnOJXLlwAIOsYfcQs_LkzyBHiumIt052_oac2mi66Dsn6xAvT_17OgeS1_oUzj-piJrVMbBMJkrHx85E_2Uo5KTNsPT47qVv6kiP18DJBYmOqTp-QDdMB1OmSPIR0uqQtFHtCzUkwXCCYbFyCENQ1lybOzptc7ZBgImWXgFPvIofdeFVjJ2jjQzb-TpsKZpRaA1ubiSL-RspC9m03fYvpztqd-_kVkTWl7GKhRwGnn-V7zhwUJJjm8yRBIbMLnw8";
+    const token = "9Qqj6as__GgqfO9P0_w3GYjDFM8OivtjbxBVLqjxMAEVvDT29E48n2Y14_KcuXUEJXGaTFtqnOJXLlwAIOsYfcQs_LkzyBHiumIt052_oac2mi66Dsn6xAvT_17OgeS1_oUzj-piJrVMbBMJkrHx85E_2Uo5KTNsPT47qVv6kiP18DJBYmOqTp-QDdMB1OmSPIR0uqQtFHtCzUkwXCCYbFyCENQ1lybOzptc7ZBgImWXgFPvIofdeFVjJ2jjQzb-TpsKZpRaA1ubiSL-RspC9m03fYvpztqd-_kVkTWl7GKhRwGnn-V7zhwUJJjm8yRBIbMLnw";
 
     // 🧮 Convertir a centavos sin redondeo intermedio
     const amount = Math.round(totalValue * 100); // Total en centavos
